@@ -293,12 +293,16 @@ function extractFiles(path) {
 可以断点看看entry.path，你就会看到分别进来了好几次，然后我们会分别看到我们想要的那两个文件
 
 
-![](https://files.mdnice.com/user/3934/c64c7551-d9a6-4767-9070-d5278ab9260b.jpg)
+
+![](https://files.mdnice.com/user/3934/0e400928-12f4-473b-87be-45f205a63316.png)
+
 
 两份xml文件解析之后就会到close方法里了，这时就可以看到strings和sheet都有内容了，而且内容都是xml
 
 
-![](https://files.mdnice.com/user/3934/381634ff-2c6d-4c7f-81c3-532addc4b819.jpg)
+
+![](https://files.mdnice.com/user/3934/9204fcb1-9a9f-4057-bb1c-0048f2366094.png)
+
 
 我们分别看看strings和sheet的内容
 
