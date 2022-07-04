@@ -1,5 +1,10 @@
 [toc]
 
+# 插件介绍
+
+excel-2b-json 插件用于将 google excel 文件转化成 本地json文件。
+
+适用场景： 项目国际化，配置多语言
 # 使用方法
 
 ## 1. 安装excel-2b-json

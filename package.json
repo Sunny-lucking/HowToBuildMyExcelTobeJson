@@ -1,6 +1,6 @@
 {
   "name": "excel-2b-json",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "gererate json file from google excel or local excel",
   "main": "index.js",
   "scripts": {
