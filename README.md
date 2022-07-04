@@ -1,4 +1,24 @@
 [toc]
+
+# 使用方法
+
+## 1. 安装excel-2b-json
+```js
+npm install excel-2b-json
+```
+
+## 2. 引入使用
+
+```js
+const excelToJson = require('excel-2b-json');
+// path 生成的json文件目录
+
+excelToJson('https://docs.google.com/spreadsheets/d/12q3leiNxdmI_ZLWFj4LP_EA5PeJpLF18vViuyiSOuvM/edit#gid=0', path)
+```
+
+
+
+下面是插件的实现
 # 一、涉及的算法
 
 ## 1. 26字母转换成数字，26进制，a为1，aa为27，ab为28
