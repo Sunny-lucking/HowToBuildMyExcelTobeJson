@@ -1,0 +1,19 @@
+{
+  "name": "excelTobeJson",
+  "version": "1.0.0",
+  "description": "gererate json file from google excel or local excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "superagent": "^8.0.0",
+    "unzipper": "^0.10.11",
+    "xlsx": "^0.18.5",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.32"
+  }
+}
