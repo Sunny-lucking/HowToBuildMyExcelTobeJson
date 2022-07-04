@@ -1,7 +1,7 @@
 [toc]
-# 涉及的算法
+# 一、涉及的算法
 
-## 26字母转换成数字，26进制，a为1，aa为27，ab为28
+## 1. 26字母转换成数字，26进制，a为1，aa为27，ab为28
 
 ```js
   function colToInt(col) {
@@ -19,7 +19,7 @@
 ```
 
 
-## 生成几行几列的二维空数组
+## 2. 生成几行几列的二维空数组
 
 ```js
 function getEmpty2DArr(rows, cols) {
@@ -32,7 +32,7 @@ function getEmpty2DArr(rows, cols) {
 
 ```
 
-## 清除二维数组中空的数组
+## 3. 清除二维数组中空的数组
 
 ```
 [
@@ -62,7 +62,7 @@ function getEmpty2DArr(rows, cols) {
 ```
 
 
-## 矩阵的翻转
+## 4. 矩阵的翻转
 
 
 ```
@@ -105,9 +105,9 @@ function getEmpty2DArr(rows, cols) {
   }
 ```
 
-# 插件的实现
+# 二、插件的实现
 
-## 下载google Excel文档到本地
+## 1. 下载google Excel文档到本地
 
 我们先看看google Excel文档的url的组成
 
@@ -201,7 +201,7 @@ module.exports = excelToJson
 第一步已经实现了，接下来就看第二步怎么实现
 
 
-## 解析本地excel成二维数组
+## 2. 解析本地excel成二维数组
 
 ### 解析本地excel文件，获取excel的sheet信息和strings信息
 
@@ -611,7 +611,7 @@ function handleData(data) {
 接下来就可以根据key来生成对应的json文件了。
 
 
-## 生成json数据
+## 3. 生成json数据
 
 这一步非常简单
 
